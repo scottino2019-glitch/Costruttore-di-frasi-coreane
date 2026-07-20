@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600;700&family=Nunito:wght@400;600;700;900&family=JetBrains+Mono:wght@400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Nunito", "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Fredoka", sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, monospace;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: #FFF9E6;
+  color: #1e293b;
+}
+
+.title-font {
+  font-family: var(--font-display);
+}
+
+.word-block {
+  transition: transform 0.1s ease, box-shadow 0.1s ease, border-color 0.1s ease;
+  border-bottom-width: 6px;
+  border-right-width: 4px;
+}
+
+.word-block:active {
+  transform: translate(2px, 2px);
+  border-bottom-width: 2px;
+  border-right-width: 2px;
+}

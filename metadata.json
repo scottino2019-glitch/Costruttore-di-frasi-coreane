@@ -1,0 +1,6 @@
+{
+  "name": "Costruttore di Frasi Coreane",
+  "description": "Un gioco interattivo drag-and-drop per costruire frasi in coreano con spiegazioni grammaticali in italiano e sfide personalizzate con l'IA.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
